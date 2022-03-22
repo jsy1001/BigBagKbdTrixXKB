@@ -214,6 +214,9 @@ partial alphanumeric_keys
 xkb_symbols "cmk_ed_ks" {
     include "gb(basic)"
     include "colemak(cmk_ed_letters)"
+    key <SPCE> { [ space,  space,  space,  nobreakspace ] };
+    key <RTRN> { [ Return, Return, Return, Return ] };
+    key <ESC>  { [ Escape, Escape, Escape, Escape ] };
     name[Group1]= "English (UK, Colemak[eD], keep local symbols)";
 };
 
